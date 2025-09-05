@@ -2,19 +2,16 @@
 // Object.create
 
 // object literals
-
 const mySym = Symbol("key1")
-
-
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
-    age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
-    isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
+    name : "Abhi",
+    "full name" : "AC",
+    [mySym] : "my key 1",
+    age : 22,
+    location : "Mumbai",
+    email : "abhi@mail.com",
+    isLoggedIn : false,
+    lastLoginDays : ["Monday", "Tuesday"]
 }
 
 // console.log(JsUser.email)
@@ -22,9 +19,9 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "ac@chatgpt.com"
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "ac@microsoft.com"
 // console.log(JsUser);
 
 JsUser.greeting = function(){
@@ -36,3 +33,5 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
+
